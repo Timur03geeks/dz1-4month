@@ -7,8 +7,8 @@ button.addEventListener("click", () => {
 
     const regExp =  /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
     if (regExp.test(value)) {
-      result.innerHTML = "Valid gmail"
-      result.style.color = "green"
+      result.innerHTML = "Valid gmail";
+      result.style.color = "green";
     } else {
       result.innerHTML = "invalid gmail";
       result.style.color = "red";   
